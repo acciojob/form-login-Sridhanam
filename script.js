@@ -1,4 +1,7 @@
 function getFormvalue() {
+	const f = document.getElementById('name1').value;
+	const l = document.getElementById('name2').value;
+	alert(`${f} ${l}`);
     //Write your code here
 	const express = require('express');
 const path = require('path');
